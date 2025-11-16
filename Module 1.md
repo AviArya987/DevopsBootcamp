@@ -1,10 +1,3 @@
-+```markdown
-<!-- ============================
-     ZERO TO CLOUD READY — Module 1
-     Playful Developer Branding • Dark Theme
-     Inline SVG banner + icons + visuals
-   ============================ -->
-
 <div align="center">
 
 <!-- Inline dark banner SVG -->
@@ -49,7 +42,7 @@
 # 🖥️ Module 1 — Computer Basics (Playful • Visual • Hands-on)
 
 **Overview**  
-This module is a fun, visual, and practical 4-hour intro that builds *how a computer operates* (not just "what it is"), basic number systems, OS fundamentals, and the internet flow — all in beginner language with micro-exercises and visuals.
+This module is a fun, visual, and practical intro that builds *how a computer operates* (not just "what it is"), basic number systems, OS fundamentals, and the internet flow — all in beginner language with micro-exercises and visuals.
 
 ---
 
@@ -61,11 +54,11 @@ This module is a fun, visual, and practical 4-hour intro that builds *how a comp
 
 ---
 
-## 1 — How a Computer Operates  (60 mins)
+## 1 — How a Computer Operates
 
 **Goal:** Understand the *operation* loop, CPU fetch-decode-execute, RAM vs Storage, and binary basics.
 
-### 1.1 Operation Loop (10 min)
+### 1.1 Operation Loop
 **Explain:** Input → Process → Output → Storage
 
 **Visual (SVG inline):**
@@ -96,11 +89,10 @@ This module is a fun, visual, and practical 4-hour intro that builds *how a comp
   </defs>
 </svg>
 
-**Micro-check:** Name 2 inputs and 2 outputs from your laptop.
 
 ---
 
-### 1.2 CPU: Fetch → Decode → Execute (20 min)
+### 1.2 CPU: Fetch → Decode → Execute
 **Explain briefly:**  
 - **Fetch:** CPU reads instruction from memory  
 - **Decode:** CPU figures out what to do  
@@ -116,7 +108,7 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-### 1.3 RAM vs Storage (15 min)
+### 1.3 RAM vs Storage
 **Explain:**  
 - RAM = temporary working area, very fast, cleared on shutdown  
 - Storage = SSD/HDD, persistent, slower
@@ -135,7 +127,7 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-### 1.4 Bits, Bytes & Number Systems (15 min)
+### 1.4 Bits, Bytes & Number Systems
 **Explain:** Bit (0/1), Byte=8 bits, Binary & Hex quick conversions.
 
 **Mini activity:** Convert decimal 13 → binary  
@@ -147,18 +139,18 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-## 2 — OS Fundamentals  (60 mins)
+## 2 — OS Fundamentals
 
 **Goal:** Know what an OS does, kernel role, processes vs threads, and program lifecycle.
 
-### 2.1 What an OS Does (10 min)
+### 2.1 What an OS Does
 **Explain:** Resource manager, user interface, security layer, file manager, scheduler.
 
 **Fun line:** OS is the “party host” that keeps guests (apps) from fighting over chairs (CPU/RAM).
 
 ---
 
-### 2.2 Kernel (20 min)
+### 2.2 Kernel
 **Explain:** Core component that interacts with hardware, isolates processes, and provides drivers.
 
 **Quick visual:**
@@ -178,7 +170,7 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-### 2.3 Processes vs Threads (20 min)
+### 2.3 Processes vs Threads
 **Explain:**  
 - Process = sandboxed program with its own memory  
 - Thread = execution path within process, shares memory
@@ -199,18 +191,18 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-### 2.4 How Programs Run (10 min)
+### 2.4 How Programs Run
 **Explain flow:** Source → (compile/interpret) → machine code → CPU → output.
 
 **Example:** Python code is interpreted (line by line). C code is compiled into machine code.
 
 ---
 
-## 3 — Internet Basics  (60 mins)
+## 3 — Internet Basics
 
 **Goal:** Understand DNS, HTTP vs HTTPS, client-server lifecycle, and what happens on a page load.
 
-### 3.1 URL → Page (25 min)
+### 3.1 URL → Page
 **Step flow:**  
 1. Browser cache check  
 2. DNS resolution (domain → IP)  
@@ -237,14 +229,14 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-### 3.2 DNS — the phonebook (10 min)
+### 3.2 DNS — the phonebook
 **Explain:** DNS maps human names to IP addresses. It is hierarchical (root → TLD → authoritative).
 
 **Quick task:** `nslookup example.com` (or use online DNS lookup).
 
 ---
 
-### 3.3 HTTP vs HTTPS (10 min)
+### 3.3 HTTP vs HTTPS
 **Table:**
 
 | HTTP | HTTPS |
@@ -257,22 +249,22 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 
 ---
 
-### 3.4 Client–Server Model (15 min)
+### 3.4 Client–Server Model
 **Explain:** Client requests, Server responds. Stateless nature of HTTP; cookies/ sessions for state.
 
 **Example scenarios:** Logging in to a site, fetching an image, streaming video.
 
 ---
 
-## 4 — Exercises & Summary (30 mins)
+## 4 — Exercises & Summary
 
-### Quick Exercises (15 min)
+### Quick Exercises
 1. Convert decimal **21** → binary.  
 2. Explain in one sentence: Why does RAM matter?  
 3. Use `ping` or open DevTools → Network tab and refresh any site. What files load first?  
 4. Draw the flow of a browser request (on paper).
 
-### Recap (10 min)
+### Recap
 - CPU = executor (fetch/decode/execute)  
 - RAM = working area; Storage = long-term  
 - OS (kernel) manages resources and isolation  
@@ -282,23 +274,10 @@ Pseudo-instruction: `ADD R1, R2 -> R3`
 - Module 2 — **Linux Fundamentals** (terminal, commands, file system)  
 - Module 3 — **Networking** (IP, routing, ports)  
 - Module 4 — **Git & GitHub** and so on...
-
----
-
-## Resources & Icons (Playful picks)
-- 🐍 Python — great next step for coding  
-- 🐧 Linux — you'll use this daily in cloud work  
-- ☁️ AWS — the cloud target for this cohort
-
----
-
-## Want slides and printable handouts?
-Say **“Generate Module 1 slides (branded)”** and I’ll create a full PPTX with these visuals and export-ready artwork.
-
 ---
 
 <p align="center">
-  <sub style="color:#8da7b1">Made with ❤️ — Zero to Cloud Ready • Module 1 • Playful Dev Branding</sub>
+  <sub style="color:#8da7b1">Made with ❤️ — Zero to Cloud Ready • Module 1</sub>
 </p>
 ```
 
